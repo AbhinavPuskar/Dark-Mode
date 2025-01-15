@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toggle Mode</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <div class="toggle-switch" id="toggle">
-      <div class="icon sun">☀️</div>
-      <div class="icon moon">🌙</div>
-      <div class="toggle-handle"></div>
+<body class="dark-mode">
+    <div id="toggle-container">
+        <div id="circle">
+            <img id="day" src="./assets/day.svg" alt="" width="40">
+            <img id="night" src="./assets/night.svg" alt="" width="40">
+        </div>
     </div>
-    <h1>Click on the Toggle Switch</h1>
-  </div>
-  <script src="script.js"></script>
+    <h1>Click on the Toggle Button</h1>
+    <script src="index.js"></script>
 </body>
 </html>
